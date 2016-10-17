@@ -16,8 +16,8 @@
 				<div class="Gal1">
 					<?php query_posts('category_name=cami1'); ?>
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<?php the_content(); ?>
 						<h2><?php the_title(); ?></h2>
+						<?php the_content(); ?>
 						<?php endwhile; else: ?>				
 						<?php endif; ?>
 				</div> <!-- / Gal1 -->
@@ -26,8 +26,8 @@
 				<div class="Gal2">
 					<?php query_posts('category_name=cami2'); ?>
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<?php the_content(); ?>
 						<h2><?php the_title(); ?></h2>
+						<?php the_content(); ?>
 						<?php endwhile; else: ?>				
 						<?php endif; ?>
 				</div> <!-- / Gal2 -->
@@ -36,8 +36,8 @@
 				<div class="Gal3">
 					<?php query_posts('category_name=cami3'); ?>
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<?php the_content(); ?>
 						<h2><?php the_title(); ?></h2>
+						<?php the_content(); ?>
 						<?php endwhile; else: ?>				
 						<?php endif; ?>
 				</div> <!-- / Gal3 -->
