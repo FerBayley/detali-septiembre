@@ -17,7 +17,7 @@
 					<?php query_posts('category_name=cami1'); ?>
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 						<h2><?php the_title(); ?></h2>
-						<?php the_content(); ?>
+						<?php the_content("<span>Leer más</span>"); ?>
 						<?php endwhile; else: ?>				
 						<?php endif; ?>
 				</div> <!-- / Gal1 -->
