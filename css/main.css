@@ -112,6 +112,18 @@ nav ul li a:hover {
 	text-align: center;
 	width: 100%;
 }
+.Galeria a {
+    color: #FFF;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+}
+.Galeria a:hover {
+    color: #DDD;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: underline;
+}
 .Gal1 {
 	background-color: rgba(0, 0, 0, .5);
 	border-radius: 5px;
@@ -268,7 +280,47 @@ nav ul li a:hover {
 	color: #FFF;
 	text-decoration: underline;
 }
-
+.ContenedorSingle {
+    background-color:  rgba(0, 0, 0, .5);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    height: auto;
+    margin: auto;
+    margin-top: 2em;
+    overflow: hidden;
+    text-align: center;
+    width: 55%;
+}
+.ContenedorSingle h2 {
+    color: #FFF;
+    font-size: 1.5em;
+    margin: 1em 0 .5em 0;
+}
+.ContenedorSingle p {
+    color: #FFF;
+}
+.ContenedorPosts {
+    border: solid 5px red;
+}
+.ContenedorSingle img {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    height: auto;
+    margin: 1em 0 2em 0;
+    width: 50%;
+}
+.Permalink a {
+    color: #FFF;
+    text-decoration: none;
+}
+.Permalink a:hover {
+    color: #DDD;
+}
 
 @media screen and (max-width: 480px){
 	.CuerpoDetali {

@@ -23,7 +23,7 @@ Template Name: pantalones
 				<div class="Gal1">
 					<?php query_posts('category_name=pantalones1'); ?>
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<h2><?php the_title(); ?></h2>
+						<h2 class="Permalink"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						<?php the_content(); ?>
 						<?php endwhile; else: ?>				
 						<?php endif; ?>
@@ -32,7 +32,7 @@ Template Name: pantalones
 				<div class="Gal2">
 					<?php query_posts('category_name=pantalones2'); ?>
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<h2><?php the_title(); ?></h2>
+						<h2 class="Permalink"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						<?php the_content(); ?>
 						<?php endwhile; else: ?>				
 						<?php endif; ?>
@@ -41,7 +41,7 @@ Template Name: pantalones
 				<div class="Gal3">
 					<?php query_posts('category_name=pantalones3'); ?>
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<h2><?php the_title(); ?></h2>
+						<h2 class="Permalink"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						<?php the_content(); ?>
 						<?php endwhile; else: ?>				
 						<?php endif; ?>
